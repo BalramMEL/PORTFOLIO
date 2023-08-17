@@ -1,65 +1,65 @@
-import Work1 from "../../assets/Work1.jpg";
-import Work2 from "../../assets/Work2.jpg";
-import Work3 from "../../assets/Work3.jpg";
-import Work4 from "../../assets/Work4.jpg";
-import Work5 from "../../assets/Work5.png";
-import Work6 from "../../assets/Work6.png";
-import Work7 from "../../assets/Work7.png";
-import Work8 from "../../assets/Work8.png";
+import Work11 from "../../assets/Work1.jpg";
+import Work22 from "../../assets/Work2.jpg";
+import Work33 from "../../assets/Work3.jpg";
+import Work44 from "../../assets/Work4.jpg";
+import Work55 from "../../assets/Work5.png";
+import Work66 from "../../assets/Work6.png";
+import Work77 from "../../assets/Work7.png";
+import Work88 from "../../assets/Work8.png";
 
 export const projectsData = [
   {
     id: 1,
-    image: Work8,
+    image: Work88,
     title: "Threads-Clone",
     category: "Full-Stack",
     link: "https://threads-clone-9hw7.vercel.app/sign-up",
   },
   {
       id: 2,
-      image: Work7,
+      image: Work77,
       title: "Promptopia",
       category: "Full-Stack",
       link: "https://promptopia-balrammel.vercel.app",
     },
   {
     id: 3,
-    image: Work6,
+    image: Work66,
     title: "Customer_Operator",
     category: "Full-Stack",
     link: "https://drive.google.com/file/d/1p2-m8XkCQWLwkj4fK9I0Bkxk7ikZnaZU/view?usp=drivesdk",
   },
   {
     id: 4,
-    image: Work1,
+    image: Work11,
     title: "Tasky Applovation",
     category: "Frontend",
     link: "https://taskyapplication.netlify.app/",
   },
   {
     id: 5,
-    image: Work2,
+    image: Work22,
     title: "Notes app",
     category: "Frontend",
     link: "https://notes-appl-mobile.netlify.app/",
   },
   {
     id: 6,
-    image: Work3,
+    image: Work33,
     title: "Blog web",
     category: "Frontend",
     link: "https://bookblogs.netlify.app/",
   },
   {
     id: 7,
-    image: Work4,
+    image: Work44,
     title: "Calculator",
     category: "Frontend",
     link: "https://calculatordarklighttheme.netlify.app/",
   },
   {
     id: 8,
-    image: Work5,
+    image: Work55,
     title: "Zomato landing page",
     category: "Frontend",
     link: "https://zomatooo-clone.netlify.app",
