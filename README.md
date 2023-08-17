@@ -1,2 +1,2 @@
 Build A React.js Responsive Portfolio Website
-Deployment Url => https://portfolio-web123.netlify.app
+Deployment Url => [https://balrammel.github.io/PORTFOLIO/]
