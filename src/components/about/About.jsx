@@ -20,7 +20,7 @@ const About = () => {
             Frontend developer. I created web pages with UI / UX user interface,
             From responsive layouts to seamless navigation, my projects
             demonstrate a deep understanding of user experience and the latest
-            frontend technologies.
+            frontend and backend technologies.
           </p>
 
           <a href={CV} download="" className="button button--flex">
