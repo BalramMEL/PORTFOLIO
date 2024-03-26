@@ -41,38 +41,30 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Web Development</h3>
+              <h3 className="services__modal-title">Full Stack Web Development</h3>
               <p className="services__modal-description">
-                New to Web Design but will garenteed to providing quality work
-                to clients and companies.
+                As a full stack web developer, I specialize in creating dynamic and visually appealing websites with seamless functionality. 
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
+                    Using a combination of frontend technologies like React.js, Next.js 
+                    </p>
                 </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interaction.
-                  </p>
+                    and backend technologies like Node.js and Express.js
+                  </p>                 
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand.
-                  </p>
+                  <p className="services__modal-info">Prioritizing responsive design to ensure optimal user experiences across devices.</p>
                 </li>
+                
               </ul>
             </div>
           </div>
@@ -82,7 +74,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Database  <br /> Integration
             </h3>
           </div>
 
@@ -104,23 +96,23 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
-              <p className="services__modal-description">
+              <h3 className="services__modal-title">Database Integration</h3>
+              {/* <p className="services__modal-description">
                 New to Web Design but will garenteed to providing quality work
                 to clients and companies.
-              </p>
+              </p> */}
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Integration of SQL databases (MySQL, PostgreSQL) or NoSQL solutions (MongoDB) into web applications.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Structuring databases to ensure optimal performance and data integrity.</p>
                 </li>
 
                 <li className="services__modal-service">
@@ -145,7 +137,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Maintenance and  <br /> Support
             </h3>
           </div>
 
@@ -167,26 +159,27 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
-              <p className="services__modal-description">
-                New to Web Design but will garenteed to providing quality work
-                to clients and companies.
-              </p>
+              <h3 className="services__modal-title">Maintenance and Support</h3>
+              {/* <p className="services__modal-description">
+                Providing ongoing maintenance and support services to ensure website and application functionality.
+              </p> */}
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Applying security patches, performing backups, and addressing technical issues promptly.
+
                   </p>
                 </li>
 
-                <li className="services__modal-service">
+                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Providing ongoing maintenance and support services to ensure website and application functionality.
+</p>
                 </li>
 
-                <li className="services__modal-service">
+                {/* <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I create ux element interaction.
@@ -198,7 +191,7 @@ const Services = () => {
                   <p className="services__modal-info">
                     I position your company brand.
                   </p>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

@@ -56,10 +56,10 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Frontend Developer</h3>
+      <h3 className="home__subtitle">Full Stack Developer</h3>
       <p className="home__description">
-        I'm creative developer based in Maharashtra, and I'm very passionate and
-        dedicated to my work.
+        I'm creative developer based in Maharashtra, and very passionate and
+        dedicated towards my work.
       </p>
 
       <a href="#contact" className="button button--flex">

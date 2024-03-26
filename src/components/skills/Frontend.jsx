@@ -24,8 +24,8 @@ const Frontend = () => {
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
-              <h3 className="skills__name">CSS</h3>
-              <span className="skills__level">intermediate</span>
+              <h3 className="skills__name">Three.js</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
@@ -62,10 +62,11 @@ const Frontend = () => {
           <div className="skills__data">
             <i class="bx bxs-badge-check"></i>
             <div>
-              <h3 className="skills__name">GitHub</h3>
+              <h3 className="skills__name">GSAP Animation</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
