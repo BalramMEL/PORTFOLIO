@@ -8,6 +8,8 @@ import Work77 from "../../assets/Work7.png";
 import Work88 from "../../assets/Work8.png";
 import Work10 from "../../assets/Work10.png"
 
+
+// project data
 export const projectsData = [
   {
     id: 1,
