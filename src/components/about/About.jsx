@@ -17,12 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer. I created web pages with UI / UX user interface,
-            From responsive layouts to seamless navigation, my projects
-            demonstrate a deep understanding of user experience and the latest
-            frontend and backend technologies.
-          </p>
-
+            I’m a Full-Stack Developer and React Native enthusiast, crafting seamless web and mobile experiences. With expertise in React.js, Next.js, and Node.js, I build responsive, scalable solutions. As a freelancer, I help businesses turn ideas into high-performance digital products.          </p>
           <a href={CV} download="" className="button button--flex">
             Download CV
             <svg

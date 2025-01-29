@@ -74,7 +74,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Database  <br /> Integration
+               Mobile App <br /> Development
             </h3>
           </div>
 
@@ -106,7 +106,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Integration of SQL databases (MySQL, PostgreSQL) or NoSQL solutions (MongoDB) into web applications.
+            Building cross-platform mobile applications for iOS and Android using React Native.
                   </p>
                 </li>
 
@@ -118,16 +118,24 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interaction.
+            Optimizing app performance for smooth and responsive user experiences.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+            Implementing native modules and third-party integrations.
                   </p>
                 </li>
+
+                        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">
+            Deploying and maintaining apps on the App Store and Google Play.
+          </p>
+        </li>
+
               </ul>
             </div>
           </div>

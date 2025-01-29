@@ -21,10 +21,10 @@ const Qualification = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={() => toggleTab(1)}
+            onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
-            Education
+            <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
+            Experience
           </div>
           <div
             className={
@@ -32,17 +32,77 @@ const Qualification = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={() => toggleTab(2)}
+            onClick={() => toggleTab(1)}
           >
-            <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
-            Experience
+            <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
+            Education
           </div>
         </div>
 
         <div className="qualification__sections">
+          
+
+          <div className={
+              toggleState === 1
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Full-Stack Developer</h3>
+                <span className="qualification__subtitle">
+                  Freelance - remote
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>{" "}
+                  Feb-2024 to Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <div className="qualification__line"></div>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Frontend Developer</h3>
+                <span className="qualification__subtitle">Factwise</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>{" "}
+                  Jun-2023 to Sept-2024
+                </div>
+              </div>
+            </div>
+            
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Full-Stack developer</h3>
+                <span className="qualification__subtitle">Devtwon </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>{" "}
+                  Oct-2023 to Jan-2024
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+              </div>
+            </div>
+
+          </div>
+
           <div
             className={
-              toggleState === 1
+              toggleState === 2
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }
@@ -116,48 +176,6 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className={
-              toggleState === 2
-                ? "qualification__content qualification__content-active"
-                : "qualification__content"
-            }>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">FSWT (Intern)</h3>
-                <span className="qualification__subtitle">
-                  Devtown - remote
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>{" "}
-                  Oct-2022 - Jan-2023
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                {/* <div className="qualification__line"></div> */}
-              </div>
-
-              <div>
-                <h3 className="qualification__title"><i class="uil uil-nerd"></i></h3>
-                <span className="qualification__subtitle"></span>
-                <div className="qualification__calender">
-                  {/* <i className="uil uil-calendar-alt"></i> */}
-                </div>
-              </div>
-            </div>
-            
           </div>
         </div>
       </div>
